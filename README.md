@@ -1,3 +1,6 @@
+> ### Overview
+>
+
 > ### Prerequisites
 > 
 > - Linux (Ubuntu 20) 
@@ -12,12 +15,12 @@
 
 > ### Installation
 >
-> - Create Database and table
+> - Create database and table
 > - Put Python files on system
 > - Create Crontab entries
  
 > ### Usage
 > 
-> - Check Log
+> - Check log
 > - Browser to index.php (or whatever)
 > - Buttons to view list types
