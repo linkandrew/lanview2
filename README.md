@@ -1,7 +1,7 @@
 > ### Prerequisites
 > 
-> - Linux (Ubuntu)
-> - MySQLApache/PHP (LAMP Stack)
+> - Linux (Ubuntu 20) 
+> - MySQL/Apache/PHP (LAMP Stack)
 > - Python3
 > - Python PIP (pip3)
 >	nmap
