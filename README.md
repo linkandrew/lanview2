@@ -7,11 +7,11 @@
 > - MySQL/Apache/PHP (LAMP Stack)
 > - Python3
 > - Python PIP (pip3)
->	- nmap
+>	- nmap (python-nmap)
 >	- subprocess
 >	- time
->	- pymysql
->	- getmac
+>	- pymysql (PyMySQL)
+>	- getmac (getmac)
 
 > ### Installation
 >
