@@ -41,7 +41,7 @@
 >
 > - #### Create database and table
 >
-> Just run the MySQL script at the database admin/root user.
+> Just run the MySQL script as the database admin/root user.
 
 	mysql -u root -p < lanview2.sql
 	(Enter Password)
