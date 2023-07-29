@@ -43,11 +43,11 @@
 > - #### Update config files and passwords (optional)
 > 
 > The config that must be changed is in the Python script config file and that is the network range to scan.
-> It is in the lanview2_config file and will likley not be the same addressing that I use.
+> It is in the lanview2_config.py file and will likley not be the same addressing that I use.
 >
 > Also before you run the SQL script you can change the default passwords I added to the database accounts.
 > You will obviously need to update them to whatever you change them to in the config files for both Python and PHP scripts.
-> I just randomly created these passwords and they are pretty short, so I would suggest doing this as it is a public reepo and all.
+> I just randomly created these passwords and they are pretty short, so I would suggest doing this as it is a public repo and all.
 >
 > - #### Create database and table
 >
