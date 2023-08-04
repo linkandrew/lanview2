@@ -18,11 +18,15 @@
 >	- pymysql (PyMySQL)
 >	- getmac (getmac)
 
-	sudo apt install apache2 mysql-server php libapache2-mod-php php-mysql python3-pip
+	sudo apt install apache2 mysql-server php libapache2-mod-php php-mysql python3-pip git
 	sudo pip3 install python-nmap PyMySQL getmac
 
 > ### Installation
 >
+> - #### Clone the repository (Update this)
+
+	git clone http://10.0.100.204/root/lanview2.git	
+
 > - #### Put PHP files on system
 >
 > You can put these in the Apache document root or user page or somthing like that.
