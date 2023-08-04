@@ -72,7 +72,17 @@
 
 > ### Usage
 > 
+> - Browse to index.php (or whatever)
+> - Buttons at top to view list types
+> - What expire does and how to change it
+>
+> ### Troubleshooting
+> 
+> - Run Manually
 > - Check log
-> - Browser to index.php (or whatever)
-> - Buttons to view list types
-
+>
+> ### Stuff to update (TODO)
+> 
+> - Better interface
+> - API for the better interface to use
+>
