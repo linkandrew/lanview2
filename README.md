@@ -18,7 +18,7 @@
 >	- pymysql (PyMySQL)
 >	- getmac (getmac)
 
-	sudo apt install apache2 mysql-server php libapache2-mod-php php-mysql python3-pip git
+	sudo apt install apache2 mysql-server php libapache2-mod-php php-mysql python3-pip nmap nbtscan
 	sudo pip3 install python-nmap PyMySQL getmac
 
 > ### Installation
@@ -32,19 +32,19 @@
 > You can put these in the Apache document root or user page or somthing like that.
 > As long as Apache can display them and the files are all in the same directory.
     
-    cp ./php/index.php /var/www/html/index.php
-    cp ./php/creds.php /var/www/html/creds.php
-    cp ./php/nickname.php /var/www/html/nickname.php
+	cd lanview2/php
+	sudo cp ./* /var/www/html/
+	sudo mv /var/www/html/index.html /var/www/html/index.html.orig
 >
 > - #### Put Python files on system
 >
 > These can go wherever, you just need to know where you put them to create the crontab entries.
 
-	cp ./python/lanview2_scan.py /opt/lanview2/lanview2_scan.py
-	cp ./python/lanview2_expire.py /opt/lanview2/lanview2_expire.py
-	cp ./python/lanview2_config.py /opt/lanview2/lanview2_config.py
+	cd lanview2/python
+	sudo mkdir /opt/lanview2
+	sudo cp ./* /opt/lanview2/
 >
-> - #### Update config files and passwords (optional)
+> - #### Update config files and passwords
 > 
 > The config that must be changed is in the Python script config file and that is the network range to scan.
 > It is in the lanview2_config.py file and will likley not be the same addressing that I use.
@@ -55,10 +55,10 @@
 >
 > - #### Create database and table
 >
-> Just run the MySQL script as the database admin/root user.
+> Just run the MySQL script to create the table and users.
 
-	mysql -u root -p < lanview2.sql
-	(Enter Password)
+	cd lanview2
+	sudo mysql -u root < lanview2.sql
     
 > - #### Update crontab
 >
