@@ -23,9 +23,9 @@
 
 > ### Installation
 >
-> - #### Clone the repository (Update this)
+> - #### Clone the repository
 
-	git clone http://10.0.100.204/root/lanview2.git	
+	git clone https://github.com/linkandrew/lanview2.git	
 
 > - #### Put PHP files on system
 >
@@ -72,17 +72,19 @@
 
 > ### Usage
 > 
-> - Browse to index.php (or whatever)
-> - Buttons at top to view list types
-> - What expire does and how to change it
+> - Browse to index.php (or whatever you put this).
+> - There are buttons at top to view list types.
+> - Currently the expire script is hard coded to mark things in the DB as invisible after 3 months. That can be edited.
 >
 > ### Troubleshooting
 > 
-> - Run Manually
-> - Check log
+> - Run the scan script manually to see if it is producing an error.
+> - Check the log file you create from the crontab entry.
 >
 > ### Stuff to update (TODO)
 > 
-> - Better interface
-> - API for the better interface to use
+> - Better interface.
+> - API for the better interface to use.
+> - Give ability to run manually from the interface (blah blah, lockfile).
+> - Set the expire script time as an argument and put it in the crontab or config file.
 >
